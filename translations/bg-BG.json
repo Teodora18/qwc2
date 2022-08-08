@@ -1,0 +1,378 @@
+{
+  "locale": "bg-BG",
+  "messages": {
+    "appmenu": {
+      "filter": "Filter menu...",
+      "menulabel": "Map & Tools",
+      "items": {
+        "AttributeTable": "Attribute Table",
+        "DxfExport": "DXF Export",
+        "Editing": "Editing",
+        "FeatureForm": "Feature Form",
+        "Help": "Help",
+        "IdentifyRegion": "Identify Region",
+        "LayerCatalog": "Layer catalog",
+        "LayerTree": "Layers & Legend",
+        "Login": "Login",
+        "Logout": "Logout",
+        "Measure": "Measure",
+        "MeasureLineString": "Measure a line",
+        "MeasurePolygon": "Measure a polygon",
+        "Print": "Print",
+        "RasterExport": "Raster Export",
+        "Redlining": "Redlining",
+        "Share": "Share Link",
+        "ThemeSwitcher": "Theme",
+        "Tools": "Map Tools",
+        "Bookmark": "Bookmarks",
+        "TimeManager": "Time Manager"
+      }
+    },
+    "attribtable": {
+      "addfeature": "Add feature",
+      "commit": "Commit changed row",
+      "delete": "Delete",
+      "deletefailed": "One or more features could not be deleted",
+      "deletefeatures": "Delete selected features",
+      "deleting": "Deleting features...",
+      "discard": "Discard changed row",
+      "formeditmode": "Open the edit form for the selected feature",
+      "geomnoadd": "Please use the edit form for adding new features to this layer",
+      "layer": "Layer",
+      "loadfailed": "Failed to load the feature data",
+      "loading": "Loading...",
+      "nodelete": "Don't delete",
+      "nogeomnoform": "The edit form is not available for geometryless layers",
+      "pleasereload": "Press 'Reload' to load the attribute table...",
+      "reload": "Reload",
+      "selectlayer": "Select layer...",
+      "title": "Attribute Table",
+      "zoomtoselection": "Zoom to selected features"
+    },
+    "bgswitcher": {
+      "nobg": "No background"
+    },
+    "bookmark": {
+      "add": "Create new bookmark",
+      "addfailed": "Failed to create bookmark",
+      "description": "Description",
+      "lastUpdate": "Last saved",
+      "manage": "Manage bookmarks",
+      "notloggedin": "You need to be logged in to store bookmarks",
+      "open": "Open bookmark in current tab",
+      "openTab": "Open bookmark in tab",
+      "remove": "Remove bookmark",
+      "removefailed": "Failed to remove bookmark",
+      "savefailed": "Failed to update bookmark",
+      "update": "Update bookmark"
+    },
+    "bottombar": {
+      "mousepos_label": "Coordinates",
+      "scale_label": "Scale",
+      "terms_label": "Terms of use",
+      "viewertitle_label": ""
+    },
+    "copybtn": {
+      "click_to_copy": "Click to copy",
+      "copied": "Copied"
+    },
+    "dxfexport": {
+      "layers": "Layers",
+      "selectinfo": "Drag a rectangle around the region to export...",
+      "symbologyscale": "Symbology scale"
+    },
+    "editing": {
+      "add": "Add",
+      "attrtable": "Table",
+      "canceldelete": "Don't delete",
+      "clearpicture": "Clear",
+      "commit": "Commit",
+      "create": "Create",
+      "delete": "Delete",
+      "discard": "Discard",
+      "draw": "Draw",
+      "feature": "Feature",
+      "geomreadonly": "The geometry contains non-zero Z values and is therefore read only.",
+      "invalidform": "Invalid form",
+      "maximize": "Maximize",
+      "minimize": "Minimize",
+      "nocompatpick": "No compatible geometry found",
+      "noeditablelayers": "No editable layers.",
+      "paint": "Modify",
+      "pick": "Pick",
+      "pickdrawfeature": "Clone existing geometry",
+      "reallydelete": "Delete",
+      "relationcommitfailed": "Some relation values could not be committed, check the icon tooltips for details",
+      "select": "Select",
+      "selectedpicture": "Selected picture",
+      "takepicture": "Take picture",
+      "unsavedchanged": "There are unsaved changes. Do you want to leave the page anyway?"
+    },
+    "featureform": {
+      "feature": "Feature",
+      "noresults": "No results",
+      "querying": "Querying...",
+      "title": "Feature form"
+    },
+    "fileselector": {
+      "placeholder": "Select file..."
+    },
+    "heightprofile": {
+      "asl": "a.s.l.",
+      "distance": "Distance",
+      "export": "Export profile",
+      "height": "Height",
+      "loading": "Calculating height profile..."
+    },
+    "identify": {
+      "export": "Export",
+      "exportformat": "Export format:",
+      "featureReport": "Feature report",
+      "link": "Link",
+      "noattributes": "No attributes",
+      "noresults": "No information available for the selected point",
+      "querying": "Querying...",
+      "title": "Feature Info"
+    },
+    "imageeditor": {
+      "confirmclose": "Close without saving?",
+      "title": "Image editor"
+    },
+    "importlayer": {
+      "addfailed": "Failed to add layer.",
+      "addlayer": "Add layer",
+      "connect": "Connect",
+      "filter": "Filter...",
+      "loading": "Loading...",
+      "localfile": "Local file",
+      "nofeatures": "No features could be imported.",
+      "noresults": "No results or invalid URL",
+      "url": "URL",
+      "urlplaceholder": "Enter URL to WMS, WMTS, WFS..."
+    },
+    "infotool": {
+      "clickhelpPoint": "Click a location to identify in the map...",
+      "clickhelpPolygon": "Draw a polygon around the features to identify..."
+    },
+    "layercatalog": {
+      "windowtitle": "Layer catalog"
+    },
+    "layerinfo": {
+      "abstract": "Abstract",
+      "attribution": "Attribution",
+      "dataUrl": "Data URL",
+      "keywords": "Keywords",
+      "legend": "Legend",
+      "maxscale": "Max. displayscale",
+      "metadataUrl": "Metadata URL",
+      "minscale": "Min. displayscale",
+      "title": "Layer Info"
+    },
+    "layertree": {
+      "compare": "Compare top layer",
+      "deletealllayers": "Remove all layers",
+      "importlayer": "Import layer",
+      "maptip": "Show layer map tips",
+      "printlegend": "Print legend",
+      "separator": "Separator",
+      "separatortooltip": "Add separator",
+      "transparency": "Trasparency",
+      "visiblefilter": "Filter invisible layers",
+      "zoomtolayer": "Zoom to layer"
+    },
+    "linkfeatureform": {
+      "cancel": "Cancel",
+      "close": "Close",
+      "drawhint": "Draw the feature on the map...",
+      "pickhint": "Pick a feature on the map..."
+    },
+    "locate": {
+      "feetUnit": "feet",
+      "metersUnit": "meters",
+      "popup": "You are within {distance} {unit} from this point",
+      "statustooltip": {
+        "DISABLED": "Position: disabled",
+        "ENABLED": "Position: enabled",
+        "FOLLOWING": "Position: following",
+        "LOCATING": "Position: locating...",
+        "PERMISSION_DENIED": "Position: permission denied"
+      }
+    },
+    "map": {
+      "loading": "Loading...",
+      "resetrotation": "Reset rotation"
+    },
+    "mapinfotooltip": {
+      "elevation": "Elevation",
+      "title": "Position"
+    },
+    "measureComponent": {
+      "areaLabel": "Area",
+      "bearingLabel": "Bearing",
+      "lengthLabel": "Length",
+      "pointLabel": "Position"
+    },
+    "navbar": {
+      "perpage": "per page"
+    },
+    "print": {
+      "grid": "Grid",
+      "layout": "Layout",
+      "legend": "Legend",
+      "maximize": "Maximize",
+      "minimize": "Minimize",
+      "nolayouts": "The selected theme does not support printing",
+      "notheme": "No theme selected",
+      "output": "Print output",
+      "resolution": "Resolution:",
+      "rotation": "Rotation",
+      "scale": "Scale",
+      "submit": "Print",
+      "wait": "Please wait..."
+    },
+    "qtdesignerform": {
+      "loading": "Loading form..."
+    },
+    "rasterexport": {
+      "format": "Format:",
+      "resolution": "Resolution:",
+      "selectinfo": "Drag a rectangle around the region to export..."
+    },
+    "redlining": {
+      "border": "Border",
+      "buffer": "Buffer",
+      "buffercompute": "Compute",
+      "bufferdistance": "Distance",
+      "bufferlayer": "Destination",
+      "bufferlayername": "Buffer",
+      "bufferselectfeature": "Select a feature to buffer...",
+      "circle": "Circle",
+      "delete": "Delete",
+      "draw": "Draw",
+      "edit": "Edit",
+      "fill": "Fill",
+      "freehand": "Freehand drawing",
+      "label": "Label",
+      "layer": "Layer",
+      "line": "Line",
+      "outline": "Outline",
+      "pick": "Pick",
+      "point": "Point",
+      "polygon": "Polygon",
+      "size": "Size",
+      "text": "Text",
+      "width": "Width"
+    },
+    "scratchdrawing": {
+      "finish": "Finish"
+    },
+    "search": {
+      "all": "All",
+      "enablelayer": "Enable layer",
+      "existinglayer": "The layer already exists in the map",
+      "invisiblelayer": "The result lies on a layer which is not visible.",
+      "more": "More...",
+      "providerselection": "Search providers",
+      "search": "Search",
+      "searchall": "Search places or add maps...",
+      "searchinprogress": "Search in progress",
+      "searchreset": "Reset search",
+      "themes": "Themes"
+    },
+    "searchbox": {
+      "filter": "Refine search",
+      "layers": "Maps",
+      "more": "more results",
+      "morelayers": "More results available",
+      "nodescription": "No description available",
+      "placeholder": "Search place or add map...",
+      "places": "Places",
+      "recent": "Recent searches"
+    },
+    "serviceinfo": {
+      "abstract": "Abstract",
+      "contactEmail": "Email",
+      "contactOrganization": "Organization",
+      "contactPerson": "Contact person",
+      "contactPhone": "Phone",
+      "contactPosition": "Position",
+      "keywords": "Keywords",
+      "onlineResource": "Online resource",
+      "title": "Theme Information"
+    },
+    "share": {
+      "QRCodeLinkTitle": "QR Code",
+      "directLinkTitle": "Via a direct link",
+      "refresh": "Generate permalink",
+      "showpin": "Show pin",
+      "socialIntro": "In your favourite social network"
+    },
+    "snapping": {
+      "loading": "Loading snapping geometries...",
+      "snappingenabled": "Snapping"
+    },
+    "themelayerslist": {
+      "addlayer": "Add layer",
+      "addlayerstotheme": "Add layers to current map",
+      "addselectedlayers": "Add selected layer(s)"
+    },
+    "themeswitcher": {
+      "addlayerstotheme": "Add layers to current map",
+      "addtotheme": "Add to current theme",
+      "confirmswitch": "Non-theme layers will be lost when switching theme. Proceed?",
+      "filter": "Filter...",
+      "match": {
+        "abstract": "Abstract",
+        "keywords": "Keywords",
+        "title": "Title"
+      },
+      "openintab": "Open in Tab",
+      "restrictedthemeinfo": "You are not permitted to view the theme or not logged in"
+    },
+    "timemanager": {
+      "animationinterval": "Animation interval",
+      "markers": "Markers",
+      "notemporaldata": "No temporal layers are visible in the map.",
+      "play": "Play",
+      "playrev": "Play backwards",
+      "rewind": "Rewind",
+      "stepback": "Step back",
+      "stepfwd": "Step forward",
+      "stepsize": "Step size",
+      "stop": "Stop",
+      "title": "Time manager",
+      "toggle": "Temporal navigation",
+      "unit": {
+        "century": "centuries",
+        "days": "days",
+        "decade": "decades",
+        "hours": "hours",
+        "milliseconds": "milliseconds",
+        "minutes": "minutes",
+        "months": "months",
+        "seconds": "seconds",
+        "years": "years"
+      }
+    },
+    "tooltip": {
+      "background": "Switch background",
+      "fullscreendisable": "Disable full screen mode",
+      "fullscreenenable": "Enable full screen mode",
+      "home": "Show entire map",
+      "zoomin": "Zoom in",
+      "zoomout": "Zoom out"
+    },
+    "vectorlayerpicker": {
+      "prompt": "Enter layer name"
+    },
+    "window": {
+      "close": "Close",
+      "dock": "Dock",
+      "maximize": "Maximize",
+      "minimize": "Minimize",
+      "undock": "Undock",
+      "unmaximize": "Restore",
+      "unminimize": "Unminimize"
+    }
+  }
+}
